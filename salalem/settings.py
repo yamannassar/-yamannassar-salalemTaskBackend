@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'music',
     'rest_framework',
     'corsheaders',
+    'graphene_django',
 ]
 
 MIDDLEWARE = [

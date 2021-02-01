@@ -3,6 +3,7 @@ from django.db import models
 
 class Artist(models.Model):
     artist_name = models.CharField(max_length=250)
+    photo = models.URLField(blank=True)
 
     def __str__(self):
         return self.artist_name
